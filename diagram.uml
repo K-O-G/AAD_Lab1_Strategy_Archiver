@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="531.0" y="124.5">IZipCompression</node>
+    <node x="1054.0" y="249.0">PKZip</node>
+    <node x="0.0" y="124.5">IArcCompression</node>
+    <node x="354.0" y="124.5">IRarCompression</node>
+    <node x="354.0" y="0.0">ICompression</node>
+    <node x="1466.0" y="249.0">Arc</node>
+    <node x="620.0" y="249.0">WinZip</node>
+    <node x="837.0" y="249.0">WinRar</node>
+    <node x="177.0" y="124.5">I7ZipCompression</node>
+    <node x="1264.0" y="249.0">Zip7</node>
+    <node x="628.346875" y="404.0">Main</node>
+    <node x="1058.0" y="102.0">Archiver</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="IZipCompression" target="ICompression">
+      <point x="0.0" y="-26.0" />
+      <point x="609.5" y="82.0" />
+      <point x="463.90000000000003" y="82.0" />
+      <point x="31.400000000000034" y="26.0" />
+    </edge>
+    <edge source="Main" target="I7ZipCompression">
+      <point x="-51.666666666666686" y="-26.0" />
+      <point x="654.1802083333332" y="374.0" />
+      <point x="255.5" y="374.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="WinRar" target="Archiver">
+      <point x="0.0" y="-37.5" />
+      <point x="935.5" y="229.0" />
+      <point x="1112.6" y="229.0" />
+      <point x="-36.39999999999998" y="48.5" />
+    </edge>
+    <edge source="IArcCompression" target="ICompression">
+      <point x="0.0" y="-26.0" />
+      <point x="78.5" y="72.0" />
+      <point x="369.7" y="72.0" />
+      <point x="-62.8" y="26.0" />
+    </edge>
+    <edge source="Main" target="Zip7">
+      <point x="51.66666666666666" y="-26.0" />
+      <point x="757.5135416666666" y="374.0" />
+      <point x="1355.0" y="374.0" />
+      <point x="0.0" y="37.5" />
+    </edge>
+    <edge source="Zip7" target="Archiver">
+      <point x="0.0" y="-37.5" />
+      <point x="1355.0" y="229.0" />
+      <point x="1185.4" y="229.0" />
+      <point x="36.39999999999998" y="48.5" />
+    </edge>
+    <edge source="Main" target="Arc">
+      <point x="68.88888888888889" y="-26.0" />
+      <point x="774.7357638888889" y="384.0" />
+      <point x="1554.5" y="384.0" />
+      <point x="0.0" y="37.5" />
+    </edge>
+    <edge source="Arc" target="Archiver">
+      <point x="0.0" y="-37.5" />
+      <point x="1554.5" y="219.0" />
+      <point x="1221.8" y="219.0" />
+      <point x="72.79999999999995" y="48.5" />
+    </edge>
+    <edge source="Main" target="WinRar">
+      <point x="17.22222222222223" y="-26.0" />
+      <point x="723.0690972222221" y="354.0" />
+      <point x="935.5" y="354.0" />
+      <point x="0.0" y="37.5" />
+    </edge>
+    <edge source="PKZip" target="Archiver">
+      <point x="0.0" y="-37.5" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="Main" target="WinZip">
+      <point x="0.0" y="-26.0" />
+      <point x="705.846875" y="344.0" />
+      <point x="718.5" y="344.0" />
+      <point x="0.0" y="37.5" />
+    </edge>
+    <edge source="I7ZipCompression" target="ICompression">
+      <point x="0.0" y="-26.0" />
+      <point x="255.5" y="82.0" />
+      <point x="401.1" y="82.0" />
+      <point x="-31.399999999999977" y="26.0" />
+    </edge>
+    <edge source="Main" target="IRarCompression">
+      <point x="-34.44444444444446" y="-26.0" />
+      <point x="671.4024305555555" y="364.0" />
+      <point x="432.5" y="364.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="Main" target="PKZip">
+      <point x="34.44444444444444" y="-26.0" />
+      <point x="740.2913194444444" y="364.0" />
+      <point x="1149.0" y="364.0" />
+      <point x="0.0" y="37.5" />
+    </edge>
+    <edge source="Main" target="IArcCompression">
+      <point x="-68.88888888888891" y="-26.0" />
+      <point x="636.957986111111" y="384.0" />
+      <point x="78.5" y="384.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="WinZip" target="Archiver">
+      <point x="0.0" y="-37.5" />
+      <point x="718.5" y="219.0" />
+      <point x="1076.2" y="219.0" />
+      <point x="-72.79999999999995" y="48.5" />
+    </edge>
+    <edge source="IRarCompression" target="ICompression">
+      <point x="-5.6843418860808015E-14" y="-26.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="Main" target="IZipCompression">
+      <point x="-17.22222222222223" y="-26.0" />
+      <point x="688.6246527777778" y="354.0" />
+      <point x="609.5" y="354.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="Archiver" target="ICompression">
+      <point x="0.0" y="-48.5" />
+      <point x="1149.0" y="72.0" />
+      <point x="495.3" y="72.0" />
+      <point x="62.80000000000001" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8713550600343053" x="662.8444881889764" y="334.19389763779526" />
+  <SelectedNodes>
+    <node>Main</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
